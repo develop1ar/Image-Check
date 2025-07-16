@@ -10,7 +10,7 @@ from PIL import Image
 # === CONFIGURATION ===
 base_dir = "C:/Image Check"
 notify_folder = os.path.join(base_dir, "notify")
-motion_base_folder = os.path.join(base_dir, "img_final")
+motion_base_folder = os.path.join(base_dir, "img_temp")
 
 notify_total = 10
 notify_interval = 60  # 1 minute
